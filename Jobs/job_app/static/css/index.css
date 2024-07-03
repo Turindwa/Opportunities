@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 90px; 
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; /* Change this to the desired background color */
+    color: #fff; /* Change this to the desired text color */
+    padding: 20px;
+    text-align: center;
+    z-index: 100; /* Ensure that the header appears above other elements */
+}
+
+
+.job-listings {
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+/* .job-listings .job-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+   */
+.job-listings .job-item:last-child {
+    border-bottom: none;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.foot{
+    /* margin-right: 400px; */
+}
+
+.card.mb-3 {
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card.w-100 {
+    padding: 1x;
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 10px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+
+.col-md-4 {
+    /* position: fixed; */
+    top:90px; 
+    right: 10px; 
+    width: 400px; 
+    /* z-index: 999;  */
+    padding: 10px; 
+}
+.mb-1 {
+    margin-bottom: 3px;
+  
+}
+
+.card.mb-3{
+height: 458px;
+}
+
+.text-color{
+color: #165598;
+}
